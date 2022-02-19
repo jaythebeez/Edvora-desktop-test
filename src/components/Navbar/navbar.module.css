@@ -1,0 +1,50 @@
+.navbar{
+    padding:30px 45px;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.nav_links{
+    display: flex;
+    gap:45px;
+}
+
+.nav_link{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color:var(--faint-text-color);
+    
+}
+.active{
+    display: inline-block;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color:var(--text-color);
+}
+.active::after{
+    display: block;
+    content:'';
+    background-color:var(--text-color);
+    height:3px;
+    border-radius:30px;
+    margin-top:6px;
+}
+
+.filter_button{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19px;
+    cursor: pointer;
+}
+.filter_button img{
+    width:18px;
+    height:12px;
+}
+

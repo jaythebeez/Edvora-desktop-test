@@ -1,0 +1,52 @@
+.ride_card{
+    display: grid;
+    grid-template-columns: 296px 1fr;
+    background-color: var(--ride-card-color);
+    padding:10px 25px;
+    border-radius: 10px;
+    grid-gap:45px;
+    position:relative;
+}
+.image{
+    aspect-ratio: 2 / 1;
+    width:296px;
+}
+.image_container{
+    display: flex;
+    align-items: center;
+}
+
+.ride_details{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.key{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color:var(--faint-text-color);
+}
+
+
+.ride_floaters{
+    position:absolute;
+    top:28px;
+    right:30px;
+    display: flex;
+    gap:45px;
+}
+
+.ride_floater{
+    display: inline-block;
+    background: #0000008F;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding:4px 10px;
+    border-radius:16px;
+}
